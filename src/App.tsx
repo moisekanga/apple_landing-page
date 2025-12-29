@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
-
+import Hero from "./components/Hero";
 const App = () => {
     return (
-        <main>
+        <main className="min-h-screen">
             <Navbar />
-            <h1 className="text-3xl font-bold underline">Hello Apple MacBook Pro!</h1>
+            <Hero />
         </main>
     )
 }
